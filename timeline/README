@@ -1,3 +1,9 @@
-Timeslide =========
+Timeslide
+=========
 A timeline-based presentation tool
-* Slides can be grouped into points * A point is a point on the timeline * A hEntry can be a slide
+* Slides can be grouped into points
+* A point is a point on the timeline
+* A hEvent can be a slide
+* See timeslide.js
+
+Need a better name. Nowhere near production.
