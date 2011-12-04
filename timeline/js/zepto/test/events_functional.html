@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Zepto events functional test</title>
+  <meta name="viewport" content="maximum-scale=1,initial-scale=1,user-scalable=0">
+  <script src="../src/polyfill.js"></script>
+  <script src="../src/zepto.js"></script>
+  <script src="../src/event.js"></script>
+  <script src="../src/form.js"></script>
+</head>
+<body>
+  <h1>Zepto events functional test</h1>
+
+  <div id="event_test" style="width: 200px; height: 200px; background: #ddd; -webkit-user-select: none">
+    <form action="./events_functional.html" method="get">
+      <input name="name">
+    </form>
+    events test
+  </div>
+
+  <button onclick="$('input').focus()">Force focus</button>
+  <button onclick="$('form').submit()">Force submit</button>
+
+  <script>
+    var el = $('#event_test'), node = el.get(0)
+    el.click(function(){
+        if (this == node) $(this).append(' | click!')
+      })
+      .dblclick(function(){
+        if (this == node) $(this).append(' | dblclick!')
+      })
+      // .mouseenter(function(){
+      //   if (this == node) $(this).append(' | mouseenter!')
+      //   else alert('node mismatch')
+      // })
+      // .mouseover(function(){
+      //   if (this == node) $(this).append(' | mouseover!')
+      //   else alert('node mismatch')
+      // })
+      .focus(function(e){
+        if (this == node) $(this).append(' | focus!')
+        else alert('node mismatch')
+      })
+      .focusin(function(){
+        if (this == node) $(this).append(' | focusin!')
+        else alert('node mismatch')
+      })
+      .blur(function(e){
+        if (this == node) $(this).append(' | blur!')
+        else alert('node mismatch')
+      })
+      .focusout(function(){
+        if (this == node) $(this).append(' | focusout!')
+        else alert('node mismatch')
+      })
+      .submit(function(e){
+        if (this == node) $(this).append(' | submit!')
+        if (/fuck/.test($('form input').val())) e.preventDefault()
+      })
+
+    $('form').submit(function(e){
+      el.append(' | form submit!')
+    })
+
+    $('input')
+      .focusin(function(e) {
+        el.append(' | input focusin')
+      })
+      .focus(function(e) {
+        el.append(' | input focus')
+        // if (this.nodeName != 'INPUT') alert(this.nodeName)
+        // setTimeout(function() { $(e.target).blur(); console.log('blurred') }, 3000)
+      })
+      .focusout(function(e) {
+        el.append(' | input focusout')
+      })
+      .blur(function(e) {
+        el.append(' | input blur')
+      })
+
+    $('div[id]').live('focusin', function() {
+      if (this == node) $(this).append(' | live focusin!')
+      else alert('live focusin fail')
+    })
+  </script>
+</body>
+</html>

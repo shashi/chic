@@ -1,0 +1,205 @@
+1957:
+    - Phreaking:
+        |
+        * "With the introduction of these switches, the general population began, for the first time, to interact with computing power on a large scale."
+        * 2600 Hz (The Quarterly June 1987)
+        * Joybubbles
+        <div class="popup">
+        <h3>Joybubbles and the founding of Phreaking</h3>
+        !images/phreaks.jpg!
+        Joe Engressia was blind, but he had been compensated by the fascinating gift of perfect pitch. He could recall a note he had heard, and perfectly reproduce it by whistling. At age eight, he had already discovered that he could manipulate the system of telephone switches by whistling certain tones. These systems were called multi-frequency systems (MF), and it was information about these systems that Bell made the mistake of publishing in 1960. The slang term for these tones and their use was "Marty Freeman." Joe was arrested after connecting free calls for some friends by simply whistling into the receiver. Thanks to the publicity surrounding the incident, Joe and other telephone enthusiasts formed a rapidly growing underground network mainly consisting of blind people. A few knew how to whistle the tones, while others employed early keyboards and synthesizers to produce the necessary sounds. Through Joe, phreaking grew into a major youth movement. He was arrested again in 1971, and was given a suspended sentence in exchange for promising never to manipulate telephones again. Later, he was hired by a small Tennessee company as a telephone repairman.</div>
+
+1958:
+    - Punched Card:
+        |
+        * Dates back to 1725.
+        <span class="handwritten">A Port-A-Punch</span>
+        !images/800px-IBM_Port-A-Punch.jpg!
+
+1962:
+    - The Compact Cassette:
+        |
+        !images/Tdkc60cassette.jpg!
+        Philips invented the compact audio cassette medium for audio storage, introducing it in the US in 1964.
+
+1963:
+    - ASCII:
+        |
+        * 95 printable characters
+        * ASCII art
+        <div class="popup">
+            <h3>ASCII Art</h3>
+
+            <span class="handwritten">Alice in Wonderland -- Lewis Caroll</span>
+            <pre>
+            "It _is_ a long tail, certainly," said Alice, looking
+           down with wonder at the Mouse's tail; "but why do you
+           call it sad?" And she kept on puzzling about it while the
+           Mouse was speaking, so that her idea of the tale was
+           something like this--"Fury said to
+                     a mouse, That
+                           he met in the
+                                house, `Let
+                                    us both go
+                                       to law. _I_
+                                        will prose-
+                                         cute _you_.--
+                                        Come, I'll
+                                       take no de-
+                                    nial- We
+                                 must have
+                              the trial;
+                           For really
+                         this morn-
+                       ing I've
+                      nothing
+                     to do.'
+                      Said the
+                       mouse to
+                         the cur,
+                            `Such a
+                               trial, dear
+                                   sir. With
+                                     no jury
+                                      or judge,
+                                        would
+                                       be wast-
+                                     ing our
+                                   breath.'
+                                `I'll be
+                             judge,
+                          I'll be
+                        jury,'
+                      said
+                     cun-
+                     ning
+                      old
+                        Fury,
+                         `I'll
+                            try
+                              the
+                               whole
+                                cause,
+                                 and
+                                con-
+                              demn
+                          you to
+                     death'."
+            </pre>
+
+        <span class="handwritten">Modern ASCII art</span>
+        !images/BB-ASCII-art-screenshot-zebra.png!
+        </div>
+
+1964:
+    - Paper Tape:
+        |
+        !images/Honolulu_IFSS_Teletype1964.faa.jpg!
+        <div class="handwritten">Honolulu Flight Service statioin</div>
+
+        <div class="popup">
+        !images/800px-PaperTapes-5and8Hole_small.jpg!
+        </div>
+1971:
+    - The Floppy Disk:
+        |
+        !images/728px-Floppy_Disk_Drive_8_inch.jpg!
+
+    - FTP:
+        |
+        * FTP The First, RFC 114 (written by Abhay Bhushan)
+          (Note--this is before TCP/IP)
+        
+1977:
+    - XMODEM:
+        |
+        * Ward Christensen
+        * Later becomes extremely popular among BBS users
+        * YMODEM (85) ZMODEM (86) make it more effecient.
+1978:
+    - CBBS&mdash;The first BBS:
+        |
+        * Ward Christensen
+        * BBS?
+        !images/Neon2.png!
+
+1979:
+    - Usenet:
+        |
+        alt.binaries.* still survives!
+        <div class="popup">
+        <h3>What Usenet is Not</h3>
+        # Usenet is not an organization.
+        # Usenet is not a democracy.
+        # Usenet is not fair.
+        # Usenet is not a right.
+        # Usenet is not a public utility.
+        # Usenet is not an academic network.
+        # Usenet is not an advertising medium.
+        # Usenet is not the Internet.
+        # Usenet is not a UUCP network.
+        # Usenet is not a United States network.
+        # Usenet is not a UNIX network.
+        # Usenet is not an ASCII network.
+        # Usenet is not software.
+        <h3>What Usenet is</h3>
+        Usenet is the set of people who exchange articles tagged with one or more universally-recognized labels, called "newsgroups" (or "groups" for short).  There is often confusion about the precise set of newsgroups that constitute Usenet; one commonly accepted definition is that it consists of newsgroups listed in the periodic "List of Active Newsgroups" postings which appear regularly in news.lists and other newsgroups.  (Note that the correct term is "newsgroups"; they are not called areas, bases, boards, bboards, conferences, round tables, SIGs, echoes, rooms or usergroups!  Nor, as noted above, are they part of the Internet, though they may reach your site over it.  Furthermore, the people who run the news systems are called news administrators, not sysops.  If you want to be understood, be accurate.)
+
+        <h3>Hierarchy</h3>
+
+        After what was dubbed the Great Renaming of 1987, there were:
+        * comp.* -- Discussion of computer-related topics
+        * news.* -- Discussion of Usenet itself
+        * sci.* -- Discussion of scientific subjects
+        * rec.* -- Discussion of recreational activities (e.g. games and hobbies)
+        * soc.* -- Socialising and discussion of social issues.
+        * talk.* -- Discussion of contentious issues such as religion and politics.
+        * misc.* -- Miscellaneous discussion—anything which does not fit in the other hierarchies.
+
+        * alt.* -- Alternative
+        </div>
+
+1980:
+    - The Eighties:
+        Most file sharing in the decade was done by modems from 300 baud to 14000 baud over landlines
+
+1984:
+    - Sony Corp. vs Universal City Studios, Inc.:
+        the Supreme Court of the United States finds that making individual copies of complete television shows for purposes of time-shifting is fair use.
+
+1985:
+    - FTP, Standardized:
+        FTP allows files to be efficiently uploaded and downloaded from a central server.
+    - CD-ROM:
+        The Yellow Book standard developed by Sony and Philips.
+
+1988:
+    - IRC:
+        |
+        * by Jarkko Oikarinen
+        * file sharing via Direct Client-to-Client
+        * Oh, we need to talk about you not liking IRC.
+
+1990:
+    - November:
+        The WWW is formally proposed.
+
+1991:
+    - MP3:
+        MP3 becomes an ISO standard.
+
+1992:
+    - Don't Copy That Floppy:
+        |
+        !images/Dontcopythatfloppy.jpg!
+2011:
+    - Today:
+        |
+        * File sharing before the 1990s
+        * Majorly private, physical
+        * Then dominated by the Usenet and BBSes
+    - References:
+        |
+        * Timeline of File Sharing--Wikipedia
+        * Copyright Does Not Exist--Linus Wlleij
+        * The Atomic Level of Porn--Jason Scott

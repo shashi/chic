@@ -1,0 +1,31 @@
+<!doctype html>
+{{default dir='..'}}
+{{default title=''}}
+<html>
+<head>
+<title>{{title}}</title>
+
+<script type="text/javascript" src="{{dir}}/js/zepto/dist/zepto.min.js"></script>
+<script type="text/javascript" src="{{dir}}/js/timeslide.js"></script>
+
+<link rel="stylesheet" type="text/css" href="{{dir}}/css/timeslide.css" >
+
+
+</head>
+<body>
+
+<!-- uses microformats hcalendar -->
+<div class="hcalendar">
+
+{{for slide in slides}}
+<div class="hevent slide">
+	<h2 class="event-title">{{slide['title']}}</h2>
+	<abbr class="dtstart" title="{{slide['date']}}">{{slide['date']}}</abbr>
+	<div class="summary">{{slide['content']}}</div>
+</div>
+{{endfor}}
+
+</div>
+
+</body>
+</html>
